@@ -3,7 +3,15 @@ document.querySelector('.marinha__button').addEventListener('click', () =>{
 })
 
 
-document.querySelector('.plantas__button').addEventListener('click', () =>{
-  //window.open('game.html');
-  console.log("TESTE");
+document.querySelector('.invertebrados__button').addEventListener('click', () =>{
+  window.open('invertebrados.html');
+})
+
+
+document.querySelector('.botanica__button').addEventListener('click', () =>{
+  window.open('botanica.html');
+})
+
+document.querySelector('.vertebrados__button').addEventListener('click', () =>{
+  window.open('vertebrados.html');
 })
